@@ -6,6 +6,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 nav > ul{
     display: flex;
@@ -31,7 +32,7 @@ nav a{
 span{
     color: #FD6E0A;
 }
-.nav-btn{
+.primary-btn{
     width: 120px;
     height: 50px;
     border-radius: 5px;
@@ -43,4 +44,21 @@ span{
     box-shadow: 2px 2px 2px gray;
     border: none;
     cursor: pointer;
+}
+
+.header{
+    background-color: #fff8f3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-btn{
+    width: 150px;
+    margin-right: 10px;
+}
+.banner-img{
+    width: 500px;
 }
