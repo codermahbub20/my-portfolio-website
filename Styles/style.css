@@ -1,7 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-
+ /* Nav section code start */
 nav{
     display: flex;
     justify-content: space-between;
@@ -32,6 +32,8 @@ nav a{
 span{
     color: #FD6E0A;
 }
+/* nav section code end */
+
 .primary-btn{
     width: 120px;
     height: 50px;
@@ -45,7 +47,9 @@ span{
     border: none;
     cursor: pointer;
 }
+/* nav section code end */
 
+/* Header section code Start  */
 .header{
     background-color: #fff8f3;
     background-image: url('../images/header_bg.png');
@@ -92,4 +96,34 @@ span{
     font-style: normal;
     /* font-weight: 400; */
     /* line-height: 30px; */
+}
+
+/* Header section code end  */
+
+/* About section code start  */
+
+.about-section{
+    /* width: 1140px; */
+    /* height: 550px; */
+    margin: 130px 0px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    padding: 130px;
+}
+.about-heading{
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 131px;
+}
+.about-description{
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
