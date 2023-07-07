@@ -48,12 +48,19 @@ span{
 
 .header{
     background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner-btn{
     width: 150px;
@@ -61,4 +68,28 @@ span{
 }
 .banner-img{
     width: 500px;
+}
+
+.banner-content h3{
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.banner-heading{
+    font-size: 60px;
+    color: var(--dark-01, #181818);
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-title{
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    /* font-weight: 400; */
+    /* line-height: 30px; */
 }
