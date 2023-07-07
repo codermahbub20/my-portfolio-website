@@ -103,6 +103,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 100px;
+}
 /* About section code start  */
 
 .about-section{
@@ -139,21 +142,23 @@ main{
     text-align: center;
 }
 /* about section code end  */
-
+    /* what i do section style here  */
 .what-i-do-des{
     padding: 30px 150px;
 }
 .skils-container{
     display: flex;
+    padding: 20px;
 }
 .skil{
-    width: 267px;
-    height: 377px;
+    /* width: 267px; */
+    /* height: 370px; */
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     /* text-align: center; */
     margin-right: 24px;
+    /* padding: 20px; */
 }
 .skil .icon-1{
     width: 49.926px;
@@ -179,16 +184,64 @@ main{
     font-size: 20px;
     font-weight: 700;
     /* text-align: center; */
-    margin: 20px;
+    margin-left: 20px;
+    /* margin-bottom: 0px; */
 }
 .skil-description{
     color: var(--dark-03, #757575);
-font-family: Open Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
-width: 201px;
-flex-direction: column;
-padding: 33px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 201px;
+    flex-direction: column;
+    padding: 33px;
+}
+
+/* what i do code end here  */
+
+#education-info-all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+hr{
+    width: 558px;
+    height: 1px;
+    background-color: #D1D1D1;
+}
+.edu-title{
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+.degree-title{
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+.degree-name{
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+.edu-des{
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 511px;
+}
+#CV-btn{
+  margin-left: 430px;
+  width: 170px;
+  margin-top: 20px;
 }
