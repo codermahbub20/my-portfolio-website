@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Styles/style.css">
+    <script src="https://kit.fontawesome.com/2e50f222b2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- This My Website Header Section  -->
@@ -25,8 +26,8 @@
                 <h3>Hi, I  am</h3>
                 <h1 class="banner-heading">Mr. Mahbub</h1>
                 <p class="banner-title">Shot what able cold new see hold.Friendly as an betrayed formerly  he. Morning because as to society behaved moments.</p>
-                <button class="primary-btn banner-btn">Download CV</button>
-                <button class="primary-btn banner-btn">Contact</button>
+                <button  class="download-btn primary-btn banner-btn"><i class="fa-solid fa-arrow-down"></i>Download CV</button>
+                <button style="border: 1px solid #FD6E0A;;" class=" contact-btn "><i class="fa-solid fa-phone"></i>Contact</button>
             </div>
             <img class="banner-img" src="./images/hardy.png" alt="">
         </div>
@@ -132,9 +133,23 @@
         </section>
         <button id="CV-btn" class="primary-btn">Download CV</button>
     </main>
-
-    <footer>
-
+    <footer class="last">
+        <div class="foot-colum">
+            <h3 class="about-heading">Lets Connect</h3>
+            <p class="foot-des">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <a  href="https://www.facebook.com/" target="_blank"><img src="./images/icons/facebook.png" alt=""></a>
+            <a href=""><img src="./images/icons/twitter.png" alt=""></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="./images/icons/insta.png" alt=""></a>
+        </div>
+        <div class="foot-colum">
+            <h3 class="about-heading">Let’s Message me</h3>
+            <form class="contact" action="">
+                <input class="text-input" type="text" placeholder="Your Name" name="" id=""><br>
+                <input class="text-input" type="email" placeholder="Your Email" name="" id=""><br>
+                <textarea placeholder="Message" name="" id="" cols="40" rows="10"></textarea><br>
+                <button class="primary-btn">Submit</button>
+            </form>
+        </div>
     </footer>
 </body>
 </html>
